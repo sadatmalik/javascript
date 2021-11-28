@@ -18,6 +18,6 @@ More often than not, the personal connections you make on courses is where real 
 
 Get set up with some essential accounts for services you will be using again and again:
 
-- GitHub
-- StackOverflow
-- CodePen
+- GitHub - done
+- StackOverflow - done
+- CodePen - done
