@@ -65,22 +65,18 @@ function reverse(str) {
 reverse('Sadat wrote this reverse function!');
 
 // Merge sorted arrays
-function mergeSortedArrays(array1, array2)
-{
+function mergeSortedArrays(array1, array2) {
     const merged = [];
-
     if (array1.length === 0) {
         return array2;
     }
     if (array2.length === 0) {
         return array1;
     }
-
     let index1 = 0;
     let index2 = 0;
 
     while (index1 < array1.length || index2 < array2.length) {
-
         //console.log(merged);
         // ['a', 'c', 'f', 'z'], ['b', 'd', 'q']
         if (!array2[index2] || array1[index1] <= array2[index2]) {
@@ -90,10 +86,7 @@ function mergeSortedArrays(array1, array2)
             merged.push(array2[index2]);
             index2++;
         }
-
     }
-
     return merged;
 }
-
 mergeSortedArrays(['a', 'c', 'f', 'z'], ['b', 'd', 'q']);
