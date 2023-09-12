@@ -20,7 +20,7 @@
  *         that contains the year.
  *
  * Do all of these with both concatenation and interpolation. Which do you
- * prefer? Its good to get practice with both because there are some situations
+ * prefer? It's good to get practice with both because there are some situations
  * in which interpolation won't work, seeing as it's a relatively new method and
  * support for it is not everywhere.
  */
